@@ -1,0 +1,416 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 0 1rem;
+}
+
+.nav-list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.section {
+
+    text-align: center;
+    width: 100%;
+}
+
+/* .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+} */
+
+.portfolio-item {
+    background: #f4f4f4;
+    padding: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    background: url('brown-minimalist-eqli3lbi1k8irrve.jpg') no-repeat center center;
+}
+
+form input, form textarea {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+margin-bottom: 20px;
+padding: 20px;
+    border: none;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    
+
+}
+.des{
+    text-align: left;
+}
+/* .body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skill {
+    margin: 10px 0;
+}
+
+.skill p {
+    margin: 0;
+    padding: 0;
+}
+
+.progress-bar {
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress {
+    background: #4caf50;
+    height: 20px;
+    width: 0;
+    transition: width 1s;
+    border-radius: 5px;
+    color: white;
+}
+.text{
+    padding-bottom: 50px;
+}
+.foot{
+    text-align: center;
+    margin-top: 20px;
+
+    width: 100%;
+    
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #f3ebeb;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #0073e6;
+}
+.section h2{
+    text-align: center;
+    color:white;
+    background-color:#333; 
+    height: 60px;
+    padding-top: 15px;
+}.about-section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    height: 550px;
+    margin-left: 150px;
+    background: url('brown-minimalist-eqli3lbi1k8irrve.jpg') no-repeat center center;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    width: 60%;
+    height: 500px;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.about-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-text h2 {
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    margin-bottom: 10px;
+}
+.skills-section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    background: url('brown-minimalist-eqli3lbi1k8irrve.jpg') no-repeat center center;
+}
+
+.skills-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skill {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.skill h3 {
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    background: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 20px;
+    background: #333;
+    border-radius: 5px 0 0 5px;
+}
+.body{
+font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    flex-direction: column;
+    
+}
+.skill1{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    bottom: 0;
+    
+    width: 100%;
+    height: 70px;
+}
+
+
+.experience-section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    
+}
+
+.experience-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.experiences-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    height: 250px;
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    background: url('brown-minimalist-eqli3lbi1k8irrve.jpg') no-repeat center center;
+}
+
+.experience {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.experience h3 {
+    margin-bottom: 10px;
+}
+
+.experience button {
+    padding: 15px 15px;
+    margin-right: 10px;
+    background:#333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.experience button:hover {
+    background:#333;
+}
+
+.certificate, .description {
+    display: none;
+    margin-top: 10px;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}
+.ex{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    bottom: 0;
+    
+    width: 100%;
+    height: 70px;
+
+}
+
+
+.certifications-section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: url('brown-minimalist-eqli3lbi1k8irrve.jpg') no-repeat center center;
+}
+
+.certifications-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.certifications-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.certification {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.certification h3 {
+    margin-bottom: 10px;
+}
+
+.certification button {
+    padding: 15px 15px;
+    margin-right: 10px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.certification button:hover {
+    background: #333;
+}
+
+.certificate-image, .certificate-description {
+    display: none;
+    margin-top: 10px;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.certificate-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.cer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    bottom: 0;
+    
+    width: 100%;
+    height: 70px;
+
+}
